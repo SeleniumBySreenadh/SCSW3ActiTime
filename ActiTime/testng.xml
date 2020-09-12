@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testNGprgs.ALLAnnotations"/>
+      <class name="com.testNGprgs.Demo"/>
+      <class name="com.testNGprgs.ScreenShot"/>
+      <class name="com.testNGprgs.ModifyCustomer"/>
+      <class name="com.testNGprgs.SearchCustomer"/>
+      <class name="com.testNGprgs.CreateCustomer"/>
+      <class name="com.testNGprgs.HardAssertion"/>
+      <class name="com.testNGprgs.GoogleTest"/>
+      <class name="com.testNGprgs.Assertion"/>
+      <class name="com.testNGprgs.SoftAssertion"/>
+      <class name="com.testNGprgs.CyclicError"/>
+      <class name="com.testNGprgs.DeleteCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
